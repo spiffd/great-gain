@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin', sans-serif;
+}
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  background: #263238;
+  padding-left: 7px;
+}
+header div {
+  z-index: 1;
+}
+header .nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-pills > li > a:hover {
+  background-color: #37474F;
+}
+.navbar-text-custom {
+  color: white;
+  font-family: 'Cabin', sans-serif;
+}
+.title-header-full-width {
+  margin: 0px;
+  padding: 0px;
+}
+#title-header-col {
+  height: 100vh;
+}
+.header-image {
+  background-image: url('https://i.imgur.com/x8BakzC.jpg');
+  background-image: linear-gradient(to bottom, rgba(125, 125, 125, 0.4) 0%, rgba(125, 125, 125, 0.4) 100%), url('https://i.imgur.com/x8BakzC.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #607D8B;
+}
+#portrait-img {
+  width: 65vw;
+  max-width: 400px;
+  position: relative;
+  top: 20vh;
+  opacity: 1;
+  border: 5px solid white;
+}
+#portrait-name-text {
+  opacity: 1;
+  position: relative;
+  top: 20vh;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+  font-size: 64px;
+}
+.content-section {
+  margin-bottom: 60px;
+}

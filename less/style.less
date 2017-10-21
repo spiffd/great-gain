@@ -1,7 +1,10 @@
 @dark-grey: #607D8B;
+@custom-blue: #448AFF;
+@custom-blue-dark: #2962FF;
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Cabin', sans-serif;
+  color: white;
 }
 
 p {
@@ -12,7 +15,7 @@ header {
   position: absolute;
   z-index: 1;
   width: 100vw;
-  background: #263238;
+  background: #448AFF;
   padding-left: 7px;
   
   div {
@@ -55,8 +58,8 @@ header {
 }
 
 .header-image {
-  background-image: url('https://i.imgur.com/x8BakzC.jpg');
-  background-image: linear-gradient(to bottom, rgba(125,125,125,0.4) 0%, rgba(125,125,125,0.4) 100%), url('https://i.imgur.com/x8BakzC.jpg');
+  background-image: url('https://i.imgur.com/QtiT1d0.jpg');
+  /* background-image: linear-gradient(to bottom, rgba(125,125,125,0.4) 0%, rgba(125,125,125,0.4) 100%), url('https://i.imgur.com/QtiT1d0.jpg'); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,8 +88,34 @@ header {
 }
 
 .content-section {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 #about-content-section {
+  background-color: #448AFF;  
+  padding-top: 60px;
+}
+
+#projects-div {
+  background-color: #40C4FF;
+}
+
+#social-content-section {
+  background-color: #448AFF;
+}
+
+.button-custom {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  
+  i {
+    font-size: 3em;
+    color: white;
+  }
+}
+
+.portfolio-image {
+  margin: 0px;
 }
